@@ -17,7 +17,7 @@ class OrderViewModel : ViewModel() {
         menuModel.delete()
         americanoQty.value = menuModel.quantity.toString()
         updateTotalPriceSubtraction(menuModel.price)
-        Log.d("test1234", "Minju")
+        Log.d("test1234", "Minj")
     }
 
     fun addAmericano() {
