@@ -1,5 +1,6 @@
 package com.mvvm.example.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.mvvm.example.model.Americano
@@ -16,6 +17,7 @@ class OrderViewModel : ViewModel() {
         menuModel.delete()
         americanoQty.value = menuModel.quantity.toString()
         updateTotalPriceSubtraction(menuModel.price)
+        Log.d("test1234", "Minju")
     }
 
     fun addAmericano() {
